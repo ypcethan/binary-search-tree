@@ -1,0 +1,19 @@
+{
+  "name": "DataStructure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll",
+    "debug": "ndb main.js"
+  },
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
